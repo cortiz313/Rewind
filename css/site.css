@@ -8,6 +8,7 @@
 
 body {
     color: var(--dark-color);
+    font-family: 'Bangers', cursive;
 }
 
 nav {
@@ -86,3 +87,4 @@ pre[class*="language-"] {
     word-break: break-all;
     word-wrap: break-word;
 }
+
