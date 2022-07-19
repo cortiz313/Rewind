@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #2066cf;
-    --secondary-color: #f02d2d;
+    --primary-color: #000000;
+    --secondary-color: #625e66;
     --dark-color: #292929;
     --white-color: #e7e7e7;
 
@@ -8,8 +8,19 @@
 
 body {
     color: var(--dark-color);
+    font-family: 'IM Fell English', serif;
+    
+}
+
+.logoFont {
     font-family: 'Bangers', cursive;
 }
+
+.headerFont{
+    font-family: 'Bangers', cursive;
+    color: #2c2a2c;
+}
+
 
 nav {
     background-color: var(--dark-color);
@@ -78,7 +89,7 @@ img {
 }
 
 .checklist>li i {
-    color: rgb(228, 108, 9);
+    color: rgb(202, 9, 228);
 }
 
 code[class*="language-"],
@@ -88,3 +99,13 @@ pre[class*="language-"] {
     word-wrap: break-word;
 }
 
+#btnSubmit{
+background-color: rgb(195, 0, 255);
+color: white;
+font-family: 'Bangers', cursive;
+}
+
+#alert{
+    color: rgb(0, 100, 5);
+font-family: 'Bangers', cursive;
+}
