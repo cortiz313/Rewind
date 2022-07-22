@@ -106,9 +106,20 @@ function displayString(revString){
                     </pre> 
                 </div>
                 <div class="col-lg-4">
-                    <p>The Code is structured in one function.</p>
-                    <h5>Hello World</h5>
-                    <p>Hello World is a function that displays an alert with a message of "Hello World"</p>
+                    <p>The Code is structured in three functions.</p>
+                    <h5>getValues()</h5>
+                    <p>getValues is a controller function that gets the string value from the user and passes the string to the reverseString() function. The reversed string that is returned
+                        from that function is then sent to the displayString() function.
+                    </p>
+                    <h5>reverseString()</h5>
+                    <p> reverseString is a logic function that takes a parameter of the userString and returns it in reverse order. With the use of a for loop, we 
+                        concatenate the characters from userString to the variable revString, by starting the for loop at the index of the last character and moving backwards
+                        through the string. We then return the string. 
+                    </p>
+                    <h5>displayString()</h5>
+                    <p> displayString is a display function that receives a reversed string as a parameter and uses the elementID "msg" to pass this string as
+                        output to the user. We also remove the class "invisible" from the alert so that it can be seen by the user.
+                    </p>
                 </div>
 
             </div>

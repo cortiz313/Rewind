@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #000000;
+    --primary-color: #7200cf;
     --secondary-color: #625e66;
     --dark-color: #292929;
     --white-color: #e7e7e7;
@@ -12,6 +12,10 @@ body {
     
 }
 
+.appbody{
+    color: #444444;
+}
+
 .logoFont {
     font-family: 'Bangers', cursive;
 }
@@ -19,6 +23,11 @@ body {
 .headerFont{
     font-family: 'Bangers', cursive;
     color: #2c2a2c;
+}
+
+.enterheader {
+    font-family: 'Bangers', cursive;
+    color: #7200cf;
 }
 
 
